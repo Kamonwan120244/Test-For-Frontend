@@ -1,3 +1,46 @@
+จากที่ได้รับมอยหมายให้ทำแอปพลิเคชัน Salad Maker! ซึ่งสามารถทำได้โดยดังนี้
+
+1. หน้าส่วนผสม:
+○ ดึงและแสดงส่วนผสมจาก REST API โดยจัดหมวดหมู่เป็นผัก ผลไม้ ท็อปปิ้ง โปรตีน และน้ำสลัด
+○ อนุญาตให้ผู้ใช้เลือกส่วนผสมและสร้างสูตรอาหารใหม่
+○ ปุ่มส่งเพื่อ "โพสต์" สูตรอาหารใหม่ไปยัง REST API
+
+2. หน้าสูตรอาหาร:
+○ ดึงและแสดงรายการสูตรอาหารที่สร้างจาก REST API
+○ ปุ่มลบ เพื่อลบสูตรอาหารโดยใช้คำขอ "DELETE" ไปยัง REST API
+○ ปุ่มแก้ไข เพื่อไปที่หน้าแก้ไขสูตรอาหาร
+
+3. หน้าแก้ไขสูตรอาหาร:
+○ ในส่วนนี้ยังทำไม่ได้ค่ะ สามารถดูรายละเอียดได้ว่ามาอะไรบ้าง เเต่ลบหรือแก้ไขยังไม่ได้ค่ะ
+
+ส่วนนี้เป็นการอธิบายในการทำงานว่าสามารถทำอะไรไปได้เเล้วบ้าง เเละในส่วนถัดไปเป็นการบอกการตั้งค่าเบื้องต้นที่ใช้ในการ Run Project เพื่อตรวจสอบถวามถูกต้องต่อไปค่ะ 
+
+## Getting Started Rest API
+
+โดยใช้ Json Server ในการสร้าง API เพื่อทำการ GET POST DELETE
+
+this is a [Json server](https://www.npmjs.com/package/json-server) 
+
+Install to project:
+
+```bash
+npm install json-server
+```
+
+First, run the API server:
+
+```bash
+npx json-server --watch data/db.json --port 4000
+```
+## Getting Started Rest Library
+
+1.[MaterialUI & Icon](https://mui.com/material-ui/getting-started/installation/)
+
+2. [lucide & Icon](https://lucide.dev/guide/installation)
+
+3. [Tailwindcss](https://tailwindcss.com/docs/installation)
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
